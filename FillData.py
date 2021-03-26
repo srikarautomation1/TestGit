@@ -6,7 +6,7 @@ from selenium.webdriver.support.select import Select
 1) Verify all lables are displayed
 2) click on the button to submit
 3) get the header text and compare with the expected text
-
+4. testing git file update
 """
 driver = webdriver.Chrome(executable_path="../exeFiles/chromedriver.exe")
 try:
