@@ -10,7 +10,6 @@ from selenium.webdriver.support.select import Select
 5.... test git
 6... test branch 1 code
 7... asdfsfsdf
-8.. new line 1
 """
 driver = webdriver.Chrome(executable_path="../exeFiles/chromedriver.exe")
 try:
