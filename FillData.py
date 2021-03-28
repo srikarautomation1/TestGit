@@ -8,6 +8,7 @@ from selenium.webdriver.support.select import Select
 3) get the header text and compare with the expected text
 4. testing git file update
 5.... test git
+6...git for branch
 """
 driver = webdriver.Chrome(executable_path="../exeFiles/chromedriver.exe")
 try:
