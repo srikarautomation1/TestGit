@@ -19,7 +19,7 @@ try:
     driver.maximize_window()
     time.sleep(4)
     time.sleep(6)
-
+    time.sleep(8)
     try:
         driver.find_element_by_css_selector("a#at-cv-lightbox-close").click()
     except:
