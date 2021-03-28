@@ -10,6 +10,7 @@ from selenium.webdriver.support.select import Select
 5.... test git
 6... test branch 1 code
 7... asdfsfsdf
+8.. new line 1
 """
 driver = webdriver.Chrome(executable_path="../exeFiles/chromedriver.exe")
 try:
@@ -17,6 +18,7 @@ try:
     driver.get(url)
     driver.maximize_window()
     time.sleep(4)
+    time.sleep(6)
 
     try:
         driver.find_element_by_css_selector("a#at-cv-lightbox-close").click()
