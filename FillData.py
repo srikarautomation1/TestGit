@@ -14,6 +14,7 @@ from selenium.webdriver.support.select import Select
 9..test new 2
 10. test new 3
 11 new 4
+12. only in master
 """
 driver = webdriver.Chrome(executable_path="../exeFiles/chromedriver.exe")
 try:
